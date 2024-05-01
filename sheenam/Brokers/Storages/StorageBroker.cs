@@ -10,7 +10,7 @@ public class StorageBroker : EFxceptionsContext
   protected StorageBroker(IConfiguration configuration)
   {
     this.configuration = configuration;
-    this.Database
+    // this.Database
   }
 
   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
